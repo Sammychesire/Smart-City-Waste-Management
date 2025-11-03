@@ -1,0 +1,24 @@
+kind: TaskDialog
+inputs:
+  - kind: ManualTaskInput
+    propertyName: groupId
+    value: 2938a28e-d92a-4439-b444-c83c34eb940f
+
+  - kind: ManualTaskInput
+    propertyName: id
+    value: roYe9eD47kSTRUEMzF9mIWUAFNo4
+
+modelDisplayName: my trips and tasks
+modelDescription: List the tasks in a plan.
+outputs:
+  - propertyName: value
+
+action:
+  kind: InvokeConnectorTaskAction
+  connectionReference: armely_agent1_OUlgXW.shared_planner.shared-planner-8ba793e2-de3e-455b-9116-f1e50da3c38f
+  connectionProperties:
+    mode: Invoker
+
+  operationId: ListTasks_V3
+
+outputMode: All

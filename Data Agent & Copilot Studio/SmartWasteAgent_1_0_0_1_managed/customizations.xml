@@ -1,0 +1,34 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25103.142" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25104.00138">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows></Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="armely_agent1_OUlgXW.shared_fabricdataagent.9045fcc01f434265a3ff575a278ce63f">
+      <connectionreferencedisplayname>armely_agent1_OUlgXW.shared_fabricdataagent.9045fcc01f434265a3ff575a278ce63f</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_fabricdataagent</connectorid>
+      <iscustomizable>0</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="armely_agent1_OUlgXW.shared_planner.shared-planner-8ba793e2-de3e-455b-9116-f1e50da3c38f">
+      <connectionreferencedisplayname>armely_agent1_OUlgXW.shared_planner.shared-planner-8ba793e2-de3e-455b-9116-f1e50da3c38f</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_planner</connectorid>
+      <iscustomizable>0</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>

@@ -1,0 +1,11 @@
+<botcomponent_connectionreferenceset>
+  <botcomponent_connectionreference botcomponentid.schemaname="armely_agent1_OUlgXW.action.Planner-Createatask" connectionreferenceid.connectionreferencelogicalname="armely_agent1_OUlgXW.shared_planner.shared-planner-8ba793e2-de3e-455b-9116-f1e50da3c38f">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+  <botcomponent_connectionreference botcomponentid.schemaname="armely_agent1_OUlgXW.action.Planner-Listtasks" connectionreferenceid.connectionreferencelogicalname="armely_agent1_OUlgXW.shared_planner.shared-planner-8ba793e2-de3e-455b-9116-f1e50da3c38f">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+  <botcomponent_connectionreference botcomponentid.schemaname="armely_agent1_OUlgXW.action.SmartWasteAgent" connectionreferenceid.connectionreferencelogicalname="armely_agent1_OUlgXW.shared_fabricdataagent.9045fcc01f434265a3ff575a278ce63f">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+</botcomponent_connectionreferenceset>

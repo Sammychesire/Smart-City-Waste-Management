@@ -1,0 +1,11 @@
+<botcomponent schemaname="armely_agent1_OUlgXW.gpt.default">
+  <componenttype>15</componenttype>
+  <description>An AI operations assistant that coordinates waste collection across Dallas City using Microsoft Fabric data, real-time IoT insights, and Microsoft 365 automation.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Smart Waste </name>
+  <parentbotid>
+    <schemaname>armely_agent1_OUlgXW</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

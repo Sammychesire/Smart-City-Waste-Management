@@ -1,0 +1,11 @@
+<botcomponent schemaname="armely_agent1_OUlgXW.topic.DriverAssignment_Vj__a6FRAeU2WYgPhXmeV">
+  <componenttype>16</componenttype>
+  <description>This knowledge source answers questions found in the following Dataverse items: Driver Assignment</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Driver Assignment</name>
+  <parentbotid>
+    <schemaname>armely_agent1_OUlgXW</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

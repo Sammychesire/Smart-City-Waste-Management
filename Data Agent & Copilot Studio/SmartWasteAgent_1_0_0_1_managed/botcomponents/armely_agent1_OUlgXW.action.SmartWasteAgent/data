@@ -1,0 +1,21 @@
+kind: TaskDialog
+inputs:
+  - kind: ManualTaskInput
+    propertyName: artifactId
+    value: 707efda7-315b-4295-98d1-1364a9416ebe
+
+  - kind: ManualTaskInput
+    propertyName: workspaceId
+    value: dc5956ff-b635-47ad-9a1d-169de8b556f9
+
+modelDisplayName: Smart Waste Agent
+modelDescription: "The Smart Waste Agent analyzes real-time and historical IoT data from Dallas City’s smart waste bins and collection system. It answers questions about bin fill levels, temperature, vibration, and collection activity using data from Microsoft Fabric’s Lakehouse and Event Streams.  This agent can:  Identify bins nearing capacity or showing anomalies.  Summarize performance by zone, truck route, or time period.  Compare historical and live trends to support route optimization.  Detect unusual temperature or vibration readings for maintenance alerts.  Provide operational insights such as collection frequency and fill trends.  Data Sources:  smartbins – Real-time bin telemetry and GPS data.  bin_logs – Historical IoT events for trend and anomaly analysis."
+action:
+  kind: InvokeExternalAgentTaskAction
+  connectionReference: armely_agent1_OUlgXW.shared_fabricdataagent.9045fcc01f434265a3ff575a278ce63f
+  connectionProperties:
+    mode: Maker
+
+  operationDetails:
+    kind: ModelContextProtocolMetadata
+    operationId: InvokeMCP

@@ -1,0 +1,102 @@
+kind: TaskDialog
+inputs:
+  - kind: ManualTaskInput
+    propertyName: groupId
+    value: 2938a28e-d92a-4439-b444-c83c34eb940f
+
+  - kind: ManualTaskInput
+    propertyName: planId
+    value: roYe9eD47kSTRUEMzF9mIWUAFNo4
+
+modelDisplayName: Create a task
+modelDescription: Create a new task in Planner.
+outputs:
+  - propertyName: _assignments
+
+  - propertyName: appliedCategories.category1
+
+  - propertyName: appliedCategories.category10
+
+  - propertyName: appliedCategories.category11
+
+  - propertyName: appliedCategories.category12
+
+  - propertyName: appliedCategories.category13
+
+  - propertyName: appliedCategories.category14
+
+  - propertyName: appliedCategories.category15
+
+  - propertyName: appliedCategories.category16
+
+  - propertyName: appliedCategories.category17
+
+  - propertyName: appliedCategories.category18
+
+  - propertyName: appliedCategories.category19
+
+  - propertyName: appliedCategories.category2
+
+  - propertyName: appliedCategories.category20
+
+  - propertyName: appliedCategories.category21
+
+  - propertyName: appliedCategories.category22
+
+  - propertyName: appliedCategories.category23
+
+  - propertyName: appliedCategories.category24
+
+  - propertyName: appliedCategories.category25
+
+  - propertyName: appliedCategories.category3
+
+  - propertyName: appliedCategories.category4
+
+  - propertyName: appliedCategories.category5
+
+  - propertyName: appliedCategories.category6
+
+  - propertyName: appliedCategories.category7
+
+  - propertyName: appliedCategories.category8
+
+  - propertyName: appliedCategories.category9
+
+  - propertyName: bucketId
+
+  - propertyName: completedDateTime
+
+  - propertyName: createdBy.user.displayName
+
+  - propertyName: createdBy.user.id
+
+  - propertyName: createdDateTime
+
+  - propertyName: dueDateTime
+
+  - propertyName: hasDescription
+
+  - propertyName: id
+
+  - propertyName: percentComplete
+
+  - propertyName: planId
+
+  - propertyName: priority
+
+  - propertyName: referenceCount
+
+  - propertyName: startDateTime
+
+  - propertyName: title
+
+action:
+  kind: InvokeConnectorTaskAction
+  connectionReference: armely_agent1_OUlgXW.shared_planner.shared-planner-8ba793e2-de3e-455b-9116-f1e50da3c38f
+  connectionProperties:
+    mode: Maker
+
+  operationId: CreateTask_V4
+
+outputMode: All

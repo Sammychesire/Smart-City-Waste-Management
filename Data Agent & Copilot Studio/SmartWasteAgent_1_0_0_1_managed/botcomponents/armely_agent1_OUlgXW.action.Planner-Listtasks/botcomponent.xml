@@ -1,0 +1,10 @@
+<botcomponent schemaname="armely_agent1_OUlgXW.action.Planner-Listtasks">
+  <componenttype>9</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Planner - List tasks</name>
+  <parentbotid>
+    <schemaname>armely_agent1_OUlgXW</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

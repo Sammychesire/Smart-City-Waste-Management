@@ -1,0 +1,28 @@
+{
+  "$kind": "BotConfiguration",
+  "channels": [
+    {
+      "$kind": "ChannelDefinition",
+      "channelId": "MsTeams"
+    }
+  ],
+  "settings": {
+    "GenerativeActionsEnabled": true
+  },
+  "isAgentConnectable": true,
+  "gPTSettings": {
+    "$kind": "GPTSettings",
+    "defaultSchemaName": "armely_agent1_OUlgXW.gpt.default"
+  },
+  "isLightweightBot": false,
+  "aISettings": {
+    "$kind": "AISettings",
+    "useModelKnowledge": true,
+    "isFileAnalysisEnabled": true,
+    "isSemanticSearchEnabled": true,
+    "optInUseLatestModels": false
+  },
+  "recognizer": {
+    "$kind": "GenerativeAIRecognizer"
+  }
+}

@@ -1,0 +1,4 @@
+kind: KnowledgeSourceConfiguration
+source:
+  kind: DataverseStructuredSearchSource
+  skillConfiguration: DriverAssignment_QKDRLF0LsyLPAOYbi7Q3V
