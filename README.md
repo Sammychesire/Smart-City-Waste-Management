@@ -245,7 +245,7 @@ It integrates with the **Fabric Data Agent** to fetch insights, create **Planner
 | **Metric** | **Before** | **After** |
 |-------------|-------------|------------|
 | Overflow Incidents | 18% | **<2%** |
-| Fuel Usage | 100% | **−30%** |
+| Fuel Usage | 100% | **−25%** |
 | Response Time | 4 hours | **<30 minutes** |
 | Route Efficiency | 65% | **>90%** |
 | Data Latency | >5 min | **<10 sec** |
